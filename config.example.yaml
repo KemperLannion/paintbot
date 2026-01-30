@@ -1,0 +1,19 @@
+images:
+  - path: "image1.png"
+    x: 100
+    y: 200
+    priority: 1  # Highest priority (lower number = higher priority)
+  - path: "image2.png"
+    x: 300
+    y: 400
+    priority: 2
+
+accounts:
+  - uid: 123456
+    access_key: "your-access-key-here"
+  - uid: 789012
+    access_key: "another-access-key-here"
+
+settings:
+  draw_mode: "random"  # Options: random, diffusion, sequential
+  log_interval: 5      # Log statistics every N seconds

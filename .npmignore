@@ -1,0 +1,10 @@
+src/
+tsconfig.json
+*.ts
+!*.d.ts
+node_modules/
+.git/
+*.log
+config.yaml
+TECHNICAL.md
+EXAMPLES.md
