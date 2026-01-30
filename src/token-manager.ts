@@ -46,7 +46,7 @@ export class TokenManager {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
-    const data = await response.json();
+    const data = await response.json() as { token?: string; errorType?: string };
     
     if (data.errorType) {
       throw new Error(`Token acquisition failed: ${data.errorType}`);
